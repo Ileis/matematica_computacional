@@ -19,6 +19,9 @@ a = 1;
 b = 50;
 n = 6 * 150;
 
+# os valores de intervalos para a integração simpson 1/3 precisam ser pares,
+# enquanto os valores de intervalos para a integração simpson 3/8 precisam ser
+# multiplos de 6
 NN = [];
 for i = 6:6:n
     NN = [NN, i];
