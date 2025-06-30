@@ -10,10 +10,10 @@
 # valor exato.
 
 # Função Trigonométrica: No caso da função trigonométrica, ambos os métodos apresentavam
-# comportamento caótico para valores baixos de partições. Simpson 1/3 apresentou valores
+# comportamento caótico para numeros baixos de intervalos. Simpson 1/3 apresentou valores
 # mais discrepantes que Simpson 3/8 no inicio, mas logo depois se comportou e convergiu
 # mais rápido que Simpson 3/8. Simpson 1/3 apresenta valores mais proximos do valor
-# exato para uma grande quantidade de numeros de partições.
+# exato para uma grande quantidade de inervalos.
 
 a = 1;
 b = 50;
