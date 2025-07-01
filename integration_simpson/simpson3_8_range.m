@@ -9,7 +9,7 @@ function res = simpson3_8_range(x_1, x_n, N, f)
             YY = [YY, f(XX(j))];
         endfor
 
-        Y = [Y, simpson3_8(YY, (x_1 + x_n) / N(i))];
+        Y = [Y, simpson3_8(YY, (x_n - x_1) / N(i))];
     endfor
 
     res = Y;

@@ -4,10 +4,9 @@
 # da função exponencial, o Simpson 1/3 converge mais rápido que
 # o Simpson 3/8. Ambos se comportam de maneira muito semelhante
 
-# Função Polinomial: Para a integração da função polinomial, a integração Simpson 3/8
-# consegue chegar primeiro no valor exato, mas logo depois ele supera consideravelmente
-# o valor exato, a partir desse ponto temos que o Simpson 1/3 fica mais próximo do
-# valor exato.
+# Função Polinomial: Para a integração da função polimonial, também temos que os
+# dois métodos de integração se comportam de uma forma muito semelhante, mas o método
+# Simpson 1/3 apresenta resultados mais proximos do valor real
 
 # Função Trigonométrica: No caso da função trigonométrica, ambos os métodos apresentavam
 # comportamento caótico para numeros baixos de intervalos. Simpson 1/3 apresentou valores
@@ -15,9 +14,13 @@
 # mais rápido que Simpson 3/8. Simpson 1/3 apresenta valores mais proximos do valor
 # exato para uma grande quantidade de inervalos.
 
+# para todos os tipos de funções testados o método Simpson 1/3 apresenta resultados
+# mais próximos do valor real da integral para valores suficientemente grandes de
+# intervalos.
+
 a = 1;
 b = 50;
-n = 6 * 150;
+n = 6 * 30;
 
 # os valores de intervalos para a integração simpson 1/3 precisam ser pares,
 # enquanto os valores de intervalos para a integração simpson 3/8 precisam ser
