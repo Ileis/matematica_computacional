@@ -36,7 +36,6 @@ $$
 ## Restrições
 Restrições: Limites de suprimentos e necessidade das comunidades
 
-
 ### Restrição de necessidade mínima das comunidades
 $$
     x_{11} + x_{21} + x_{31} \geq 80\\
